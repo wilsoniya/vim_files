@@ -18,6 +18,13 @@ set autoindent                          "maintain indent on newline
 set scrolloff=5                         "5 lines from top/bottom of window
 set wildmenu                            "enhanced cmd line completion
 set hidden                              "allow modified buffers to be hidden when abandoned
+set t_Co=256                            "allow 256 colors
+"colorscheme mustang
+"colorscheme inkpot
+"colorscheme wombat256
+colorscheme molokai
+
+
 
 "manual filetype recognition
 autocmd BufNewFile,BufRead *.vb set ft=vbnet

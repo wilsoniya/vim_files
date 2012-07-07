@@ -2,7 +2,8 @@
 " Fruity Color Scheme
 " ===================
 "
-" author:   Armin Ronacher <armin.ronacher@active-4.com>
+" Author:   Armin Ronacher <armin.ronacher@active-4.com>
+" Version:  0.2
 "
 set background=dark
 
@@ -20,7 +21,7 @@ hi Cursor       guibg=#aaaaaa
 hi lCursor      guibg=#aaaaaa
 
 " Search
-hi Search	    guifg=#800000   guibg=#ffae00
+hi Search       guifg=#800000   guibg=#ffae00
 hi IncSearch    guifg=#800000   guibg=#ffae00
 
 " Window Elements
@@ -28,7 +29,7 @@ hi StatusLine   guifg=#ffffff   guibg=#8090a0   gui=bold
 hi StatusLineNC guifg=#506070   guibg=#a0b0c0
 hi VertSplit    guifg=#a0b0c0   guibg=#a0b0c0
 hi Folded       guifg=#111111   guibg=#8090a0
-hi IncSearch	guifg=#708090   guibg=#f0e68c
+hi IncSearch    guifg=#708090   guibg=#f0e68c
 hi Pmenu        guifg=#ffffff   guibg=#cb2f27
 hi SignColumn   guibg=#111111
 hi CursorLine   guibg=#181818
@@ -107,9 +108,9 @@ hi xmlNamespace     guifg=#00bdec                   gui=underline
 hi xmlAttribPunct   guifg=#cccaa9                   gui=bold
 hi xmlEqual         guifg=#cccaa9                   gui=bold
 hi xmlCdata         guifg=#bf0945                   gui=bold
-hi xmlCdataCdata	guifg=#ac1446   guibg=#23010c   gui=none
-hi xmlCdataStart	guifg=#bf0945                   gui=bold
-hi xmlCdataEnd		guifg=#bf0945                   gui=bold
+hi xmlCdataCdata        guifg=#ac1446   guibg=#23010c   gui=none
+hi xmlCdataStart        guifg=#bf0945                   gui=bold
+hi xmlCdataEnd          guifg=#bf0945                   gui=bold
 
 " HTML Highlighting
 hi htmlTag          guifg=#00bdec               gui=bold
