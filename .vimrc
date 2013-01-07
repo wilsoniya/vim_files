@@ -37,3 +37,6 @@ colorscheme molokai
 
 autocmd FileType make setlocal noexpandtab
 
+inoremap <F5> <C-r>=system('uuidgen -r')[0:-2]<CR>
+inoremap <F6> <C-R>=system('date')[0:-2]<CR> 
+
