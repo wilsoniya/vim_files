@@ -24,6 +24,9 @@ set scrolloff=5                         "5 lines from top/bottom of window
 set wildmenu                            "enhanced cmd line completion
 set hidden                              "allow modified buffers to be hidden when abandoned
 set t_Co=256                            "allow 256 colors
+
+set cursorline                          "highlights line at cursor position
+set colorcolumn=79                      "highlight 80th column
 "colorscheme mustang
 "colorscheme inkpot
 "colorscheme wombat256
